@@ -1,0 +1,24 @@
+{
+  "name": "codigos",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@retconned/kick-js": "^0.5.2",
+    "@types/node-fetch": "^2.6.12",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "env": "^0.0.2",
+    "got": "^14.4.7",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

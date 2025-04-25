@@ -1,0 +1,22 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar variables de entorno
+.env
+
+# Ignorar salidas de build
+dist/
+build/
+
+# Ignorar archivos temporales de VS Code
+.vscode/
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+index.js
+index.ts
