@@ -5,6 +5,10 @@ import path from "path";
 export const name = "reload";
 
 export async function execute(client: any, message: MessageData, args: string[]) {
+  if (message.sender.username !== "CosSinT") {
+    await client.sendMessage("⛔ No tienes permiso para hacer esto.");
+    return;
+  }
   const comandos = (client as any).comandos as Map<string, any>;
 
   const comandoNombre = args[1];
