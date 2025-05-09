@@ -20,6 +20,6 @@ export async function execute(client: any, message: MessageData) {
   const currentDate = new Date().toLocaleString("es-ES", { timeZone: "UTC" });
 
   await client.sendMessage(
-    `👋 Hola ${message.sender.username} | 📡 Latencia: ${latency}ms | ⏱️ Uptime: ${uptimeString} | 📅 Fecha (UTC): ${currentDate} |  🤖 Versión: ${version}`
+    `👋 Hola ${message.sender.username} | ⏱️ Uptime: ${uptimeString} | 📅 Fecha (UTC): ${currentDate} |  🤖 Versión: ${version}`
   );
 }
